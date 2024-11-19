@@ -1,0 +1,627 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #141416;
+}
+.navbar{
+    width: 90%;
+    height: 70px;
+    cursor: pointer;
+    background-color: #141416;
+    margin-left: 5%;
+    display: flex;
+    /* border: 2px solid white; */
+   
+}
+.navbar .navleft{
+    width: 50%;
+    height: inherit;
+    /* background-color: blue; */
+  
+}
+.navleft img{
+   margin-top: 25px;
+    
+}
+.navbar .navright{
+    width: 50%;
+    height: inherit;
+    /* background-color: aqua; */
+   display: flex;
+   justify-content: end;
+}
+.navbar .navright a{
+    text-decoration: none;
+    padding: 13px;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+.navbar .navright a:hover{
+    color: #FD6262;
+    transition: 0.5s;
+}
+.navright svg{
+    font-size: 30px;
+    position: relative;
+    top: 28px;
+}
+.navright svg:hover{
+    cursor: pointer;
+}
+.navright span{
+    color: #F96060;
+    margin-top: 32px;
+}
+.navright span:hover{
+    cursor: pointer;
+    color: #F96060;
+    transition: 0.5s;
+}
+.navright button{
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;   
+    color: white;
+    background-color: transparent;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+.navright button:hover{
+    background-color: #889CE7;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.herosection{
+    width: 100%;
+    height: 950px;
+    /* background-color: red; */
+    background-image: url(./Assets/c837a6_2119733e838e4a2f8813ebde736f99d5~mv2.jpg);
+    background-attachment: fixed;
+}
+.herosection .vrajesh{
+    width: 90%;
+    height: inherit;
+    /* border:2px solid white; */
+    margin-left: 5%;
+}
+.vrajesh .palak{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    margin-top: 100px;
+}
+.vrajesh .palak p{
+    font-size: 75px;
+    color: white;
+}
+#vhv{
+    margin-top: -20px;
+    padding-inline: 10px;
+}
+.vrajesh .panth{
+    width: 100%;
+    height: 40px;
+    /* background-color: blue; */
+    margin-top: 40px;
+}
+.vrajesh .panth p{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: rgb(255,255,255);
+}
+#bb{
+    margin-top: -1px;
+}
+.vrajesh button{
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #F96060;
+    margin-top: 55px;
+    border: none;
+}
+.vrajesh button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    /* background-color: red; */
+    
+}
+.main .kunj{
+    width: 90%;
+    height: 800px;
+    /* background-color: aqua; */
+    /* border: 2px solid black; */
+    margin-left: 5%;
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+.kunj .kunjleft{
+    width: 40%;
+    height: inherit;
+    background-color: blue;
+    background-image: url(./Assets/1.jpg);
+    border: 1px solid #8A8A8A;
+}
+.fir{
+    width: 100%;
+    height: 40px;
+ 
+}
+.kunjleft .fir p{
+    font-size: 28px;
+    color: white;
+}
+.fir {
+  padding-inline: 200px;
+  position: relative;
+  top: 230px;
+}
+#vhg{
+    margin-top: 0;
+}
+#may{
+    margin-top: 0;
+}
+.kunjleft .php{
+    width: 100%;
+    color: #8A8A8A;
+    /* background-color: #889CE7; */
+    position: relative;
+    top: 250px;
+
+}
+.kunjleft .php p{
+    padding-inline: 200px;
+}
+.kunj .kunjright{
+    width: 60%;
+    height: inherit;
+    background-color: #141416;
+    border: 1px solid #8A8A8A;
+    border-left: none;
+}
+.kunjright .son{
+    width: 280px;
+    height: 400px;
+    /* border: 2px solid white; */
+    background-color: #1B1C1E;
+    border-radius: 8px;
+    margin-left: 22%;
+    margin-top: -100px;
+}
+.son img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.son .dj{
+    width: 100%;
+    height: 30px;
+    /* background-color: red;   */
+    position: relative;
+    top: 60px;
+}
+.son .dj p{
+    font-size: 20px;
+    color: #889CE7;
+    font-weight: 800;
+    padding-inline: 30px;
+}
+.son .card{
+    width: 100%;
+    height: 20px;
+    /* background-color: #F96060; */
+    position: relative;
+    top: 80px;
+    padding-inline: 30PX;
+}
+.son .card p{
+    color: #8A8A8A;
+}
+.son .min{
+    width: 80%;
+    height: 4px;
+    background-color: #3f4349;
+    position: relative;
+    top: 100px;
+    border-radius: 5px;
+margin-left: 10%;
+}
+#ty{
+    position: relative;
+    top: 120px;
+}
+#mayu{
+    position: relative;
+    left: 28%;
+    top: -430px;
+}
+#mayu1{
+    position: relative;
+   left:28% ;
+   top: -310px;
+}
+.conto{
+    width: 100%;
+    height: 1000px;
+    /* background-color: red; */
+}
+.conto .win{
+    width: 90%;
+    height: 800px;
+  background-color: #141416;
+    margin-left: 5%;
+    border: 1px solid #8A8A8A;
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+.conto .win .winleft{
+    width: 50%;
+    height: inherit;
+    background-color: #F96060;
+    background-image: url(./Assets/11111.jpg);
+    background-size: cover;
+    border: 1px solid #8A8A8A;
+}
+.winright{
+    width: 50%;
+    height: inherit;
+    border: 1px solid #8A8A8A;
+    border-left: none;
+}
+.win .winleft .api{
+    width: 100%;
+    height: 40px;
+    /* background-color: aquamarine; */
+    position: relative;
+    top: 350px;
+
+}
+.winleft .api p{
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    color: white;
+    margin-left: 23%;
+}
+.st{
+    width: 100%;
+    height: 25px;
+    position: relative;
+    top: 180px;
+    left: 250px;
+    color: #8A8A8A;
+}
+.winright button{
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #F96060;
+  border: none;
+  position: relative;
+  top: 240px;
+  left: 350px;
+}
+.winright button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.arc{
+    width: 100%;
+    height: 80px;
+    background-color: #141416;
+    /* border: 1px solid white; */
+}
+.arc p{
+    font-size: 31px;
+    color: white;
+    position: relative;
+    left: 38%;  
+}
+.has {
+    width: 100%;
+    height: 250px;
+    /* background-color: red; */
+}
+.has .dev{
+    width: 60%;
+    height: inherit;
+    /* background-color: blue; */
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.has .dev .fo{
+    width:200px ;
+    height: inherit;
+    /* background-color: aqua; */
+}
+.fo .bnb p{
+    font-size: 70px;
+    color: #F96060;
+    position: relative;
+    left: 65px;
+    top: 40px;
+}
+.dev .lik{
+    width: 100%;
+    height: 10px;
+
+}
+.dev .lik p{
+    color: #8A8A8A;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    left: 31px;
+}
+.bmw{
+    width: 90%;
+    height: 4px;
+   background-color: #8A8A8A;
+    position: relative;
+    top: 90px;
+    left: 5%;
+}
+#syw{
+    position: relative;
+    left: -12px;
+}
+#item{
+    position: relative;
+    left: -40px;
+}
+.prd{
+    width: 100%;
+    height: 400px;
+    /* border: 2px solid white; */
+}
+.prd img{
+    height: 400px;
+    width: 100%;
+}
+.mit {
+    width: 100%;
+    height: 800px;
+    /* background-color: rgb(0, 255, 174); */
+   
+}
+.mit .yug{
+    width: 90%;
+    height: inherit;
+    /* background-color: blue; */
+    margin-left: 5%;
+display: flex;
+border: 1px solid #8A8A8A;
+}
+.yugleft{
+    width: 60%;
+    height: inherit;
+    /* background-color: red; */
+    /* display: flex; */
+    
+}
+.yugleft .roy{
+    width: 33.33333%;
+    height: 150px;
+    border: 1px solid  #8A8A8A;
+    float: left;
+    border-left: none;
+}
+.roy p{
+    font-size: 35px;
+    line-height: 35px;
+    position: relative;
+    left: 100px;
+    top: 35px;
+    color: white;
+}
+.roy img{
+    position: relative;
+    left: 100px;
+    top: 53px;
+}
+#lll{
+    position: relative;
+    left: 120px;
+    top: 40px;
+}
+.why{
+   width: 100%;
+   height: 650px;
+   background-color: aqua;
+   position: relative;
+   top: 150px;
+   background-image: url(./Assets/m.jpg);
+}
+.why p{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 298px;
+    top: 110px;
+}
+#dio{
+    position: relative;
+    left: 400px;
+}
+.yugright{
+    width: 40%;
+    height: inherit;
+    /* background-color: #F96060; */
+    border: 1px solid #8A8A8A;
+}
+.yugright .chik{
+    width: 50%;
+    height: 150px;
+    /* background-color: #889CE7; */
+    float: left;
+    border: 1PX solid  #8A8A8A;
+    border-left: none;
+    border-top: none;
+}
+.chik img{ 
+    position: relative;
+    left: 100px;
+    top: 58px;
+}
+#reco{
+    position: relative;
+    top: 50px;
+    left: 120px;
+}
+.yugright .bha p{
+    position: relative;
+    top: 250px;
+    left: 200px;
+    color: #8A8A8A;
+}
+.yugright button{
+    width: 140px;
+    height: 55px;
+    background-color: #F96060;
+    border-radius: 5px;
+    border: none ;
+    position: relative;
+    top: 350px;
+    left: 280px;
+}
+.yugright button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.5s;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    
+
+}
+.footer .list{
+    width: 90%;
+    height: 400px;
+    /* border: 1px solid white; */
+    position: relative;
+    top: 100px;
+    left: 5%;
+    display: flex;
+}
+.footer .list .as{
+    width: 25%;
+    height: inherit;
+    /* background-color: aqua; */
+    /* border: 2px solid black; */
+}
+#rrr{
+    width: 35%;
+}
+.com{
+    position: relative;
+    top: 50px;
+    line-height: 40px;
+    color: #8A8A8A;
+}
+.com2{
+    line-height: 60px;
+    position: relative;
+    top: -21px;
+    color: #8A8A8A;
+}
+.com2 button{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FD6262;
+    position: relative;
+    top: 20px;
+}
+.com2 button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.5s;
+    color: white;
+}
+.com3 p{
+font-size: 20px;
+word-spacing: 0px;
+letter-spacing: 0px;
+color: #8A8A8A;
+}
+.ddd{
+    position: relative;
+    top: 30px;
+}
+.ddd p{
+    font-size: 16px;
+    position: relative;
+    top: -8px;   
+}
+.ddd input{
+    width: 250px;
+    height: 55px;
+    padding-inline: 10px;
+    border: 1px solid #8A8A8A;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+.ddd input:hover{
+    
+    border: 2px solid #8A8A8A;
+    outline: none;
+    background: transparent;
+}
+.com3 button{
+  position: relative;
+  top: 65px;
+  width: 110px;
+  border-radius: 5px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid #8A8A8A;
+  color: #8A8A8A;
+}
+.com3 button:hover{
+    cursor: pointer;
+    background-color: #889CE7;
+    border: none;
+    color: black;
+    transition: 0.5s;
+}
+.com4 p{
+    font-size: 19px;
+    color: #8A8A8A;
+    position: relative;
+    left: 100px;
+}
+.com4 img{
+    position: relative;
+    left: 100px ;
+}
+.com4 span p{
+    font-size: 16px;
+    position: relative;
+    top: 200px;
+}
